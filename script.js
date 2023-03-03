@@ -12,7 +12,7 @@ Array.from(buttons).forEach((button) => {
       string = ""
       displayAns.value = string;
     }
-    else if(e.target.innerHTML=='<='){
+    else if(e.target.innerHTML=='Del'){
       string = string.slice(0,-1);
       displayAns.value = string;
     }
